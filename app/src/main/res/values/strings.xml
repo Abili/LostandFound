@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lost and Found</string>
+    <string name="registerButtonText">Register</string>
+    <string name="countryCode_hint">+256</string>
+    <string name="post_modelUserName">User Name</string>
+    <string name="description_of_Found_item">Please gibe abrief description of the item, and where you found it,
+    this can help the owner remember and relate to where they lost their items</string>
+    <string name="itemTitle">Write the itm title here</string>
+    <string name="phoneSign_in_caption">Please note that sms charges may apply.</string>
+
+    <string name="facebook_app_id">460315074848691</string>
+    <string name="fb_login_protocol_scheme">fb460315074848691</string>
+</resources>
