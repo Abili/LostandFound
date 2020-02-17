@@ -73,7 +73,7 @@ public class ChangePhotoDialog extends DialogFragment {
             Uri selectedImageUri = data.getData();
             Log.d(TAG, "onActivityResult: image: " + selectedImageUri);
             CropImage.activity(selectedImageUri)
-                    .start(getContext(), this);
+                    .start(getActivity());
 
             //send the bitmap and fragment to the interface
 

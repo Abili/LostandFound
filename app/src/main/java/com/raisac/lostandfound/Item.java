@@ -5,12 +5,12 @@ import android.net.Uri;
 public class Item {
     private String itemName;
     private String itemDescription;
-    private Uri itemImage;
+    private String itemImage;
 
     public Item() {
     }
 
-    public Item(String itemName, String itemDescription, Uri itemImage) {
+    public Item(String itemName, String itemDescription, String itemImage) {
         this.itemName = itemName;
         this.itemDescription = itemDescription;
         this.itemImage = itemImage;
@@ -32,11 +32,11 @@ public class Item {
         this.itemDescription = itemDescription;
     }
 
-    public Uri getItemImage() {
+    public String getItemImage() {
         return itemImage;
     }
 
-    public void setItemImage(Uri itemImage) {
+    public void setItemImage(String itemImage) {
         this.itemImage = itemImage;
     }
 }
